@@ -2,9 +2,7 @@
 import os
 import csv
 
-missing = []
-moved = []
-notFound = []
+missing, moved, notFound = [],[],[]
 
 def main():
 	curdir = os.listdir()
