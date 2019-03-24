@@ -2,9 +2,9 @@
 import os
 import csv
 
-missing, moved, notFound = [],[],[]
 
 def main():
+	missing, moved, notFound = [],[],[]
 	curdir = os.listdir()
 	toRead = [x for x in curdir if x.endswith('.csv')][0]#takes first csv it finds in current dir
 
