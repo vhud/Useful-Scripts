@@ -29,7 +29,7 @@ def main():
     time.sleep(0.1)
   SendKeys('{VK_RETURN}')#Selects Dvorak in layout choices
 
-  dlg2.SaveButton.click()#saves settings here
+  dlg2.SaveButton.click()#saves settings
 
 
   SendKeys('%{F4}')
